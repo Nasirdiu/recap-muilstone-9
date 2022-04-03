@@ -13,7 +13,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className=" container">
       <Form className=" w-25 m-auto mt-3">
         <FormControl
           onChange={searchText}
@@ -23,14 +23,13 @@ const Home = () => {
           aria-label="Search"
         />
       </Form>
-      
-        <div className="meals-containers">
-          {meals.map((meal) => (
-            <Meals key={meal.idMeal} meal={meal}></Meals>
-          ))}
-        </div>
-        
+
+      <div className=" row grid col-md-12 p-3 gap-3">
+        {meals.map((meal) => (
+          <Meals key={meal.idMeal} meal={meal}></Meals>
+        ))}
       </div>
+    </div>
   );
 };
 

@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div class="container mt-5 mb-5 bg-black">
     <div class="row no-gutters">
-        <div class="col-md-4 col-lg-4"> <img src={Nasir} alt='' /></div>
+        <div class="col-md-4 col-lg-4"> <img className='img-fluid h-100 ' src={Nasir} alt='' /></div>
         <div class="col-md-8 col-lg-8">
             <div class="d-flex flex-column">
                 <div class="d-flex flex-row justify-content-between align-items-center p-5 bg-dark text-white">
