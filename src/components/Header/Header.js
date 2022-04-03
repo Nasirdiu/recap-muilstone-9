@@ -6,7 +6,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header">
-      <h1 className=" Restaurants">Restaurants</h1>
+      <h1 className=" Restaurants">Dream Developer</h1>
       <nav className="nav ms-auto">
         <CustomLink to="/home">Home</CustomLink>
         <CustomLink to="/bike">Bike</CustomLink>
