@@ -1,0 +1,29 @@
+.nav a{
+text-decoration: none;
+padding: 10px;
+border-radius: 10px;
+align-items: center;
+margin-top: 10px;
+
+}
+.nav a:hover{
+    color: orange;
+}
+.header{
+   background-color: antiquewhite;
+   display: flex;
+   justify-content: end;
+   justify-content: space-between;
+   align-items: center;
+}
+.from{
+    width: 300px;
+    margin: 10px;
+   
+    
+}
+.Restaurants{
+    
+    border-radius: 10px;
+  padding: 10px;
+}

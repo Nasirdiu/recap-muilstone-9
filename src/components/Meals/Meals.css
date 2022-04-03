@@ -1,0 +1,14 @@
+.meals-container img{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(134, 132, 132);
+    border-radius: 20px;
+    
+}
+.meals-container{
+    height: 400px;
+    border: 1px solid rgb(207, 203, 203);
+    border-radius: 10px;
+    margin: 10px;
+}
