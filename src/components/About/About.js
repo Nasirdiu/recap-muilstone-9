@@ -12,7 +12,7 @@ const About = () => {
                     <h3 class="display-5">Md.Nasir Uddin</h3><i class="fa fa-facebook"></i><i class="fa fa-google"></i><i class="fa fa-youtube-play"></i><i class="fa fa-dribbble"></i><i class="fa fa-linkedin"></i>
                 </div>
                 <div class="p-3 bg-black text-white">
-                    <h6>Web designer &amp; Developer</h6>
+                    <h6>Font -End Developer</h6>
                 </div>
                 <div class="d-flex flex-row text-white">
                     <div class="p-4 bg-primary text-center skill-block">
