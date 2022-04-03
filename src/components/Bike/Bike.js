@@ -4,10 +4,8 @@ import Bikes from '../Bikes/Bikes';
 import './Bike.css'
 const Bike = () => {
     const [bike] = useBike();
-
     return (
         <div className='row container-fluid'>
-
           <div className='row  col-md-10'>
           {
                 bike.map(honda=><Bikes key={honda.id} bike={honda}></Bikes>)

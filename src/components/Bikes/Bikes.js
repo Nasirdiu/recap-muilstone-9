@@ -1,7 +1,6 @@
 import React from "react";
 import "./Bikes.css";
 const Bikes = (props) => {
-  console.log(props.bike);
   const { name, img, price } = props.bike;
   return (
     <div className="bikes col-md-4 ">

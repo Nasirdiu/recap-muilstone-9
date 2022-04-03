@@ -10,6 +10,7 @@ const Header = () => {
       <nav className="nav ms-auto">
         <CustomLink to="/home">Home</CustomLink>
         <CustomLink to="/bike">Bike</CustomLink>
+        <CustomLink to="/reachart">Reachart</CustomLink>
         <CustomLink to="/about">About</CustomLink>
        
       </nav>
