@@ -12,7 +12,7 @@ const Bike = () => {
             }
           </div>
           <div className='col-md-2'>
-            <h1>Car</h1>
+            <h1>Bike</h1>
           </div>
         </div>
     );

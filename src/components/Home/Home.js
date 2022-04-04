@@ -13,9 +13,9 @@ const Home = () => {
   };
 
   return (
-    <div className=" container">
+    <div className=" container bg-dark">
       <Form className=" w-25 m-auto mt-3">
-        <FormControl
+        <FormControl 
           onChange={searchText}
           type="search"
           placeholder="Search"

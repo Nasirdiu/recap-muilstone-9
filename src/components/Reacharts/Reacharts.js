@@ -345,7 +345,7 @@ const Reacharts = () => {
     },
   ];
   return (
-    <div className="mt-3 col-sm-12 ">
+    <div className="mt-3 row col-md-4 bg-info">
       <Treemap
         width={730}
         height={250}
